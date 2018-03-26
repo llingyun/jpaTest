@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence>
+	<persistence-unit name="EmployeeService"
+	transaction-type="RESOURCE_LOCAL">
+	<class></class>
+	<properties>
+	 <property name="javax.persistence.jdbc.driver"
+	          value="org.apache.derby.jdbc.ClientDriver"/>
+	 <property name="javax.persistence.jdbc.url"
+	          value="jdbc:derby://localhost:jpaDemo/;create=true"/>
+	 <property name="javax.persistence.jdbc.user" value="root"/>
+	 <property name="javax.ersistence.jdbc.password" value="root"/>    
+    </properties>    
+	</persistence-unit>
+</persistence>
